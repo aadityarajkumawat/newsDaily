@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://aaditya:aaditya@cluster0-bbyqj.mongodb.net/test?retryWrites=true&w=majority",
+    "Secret": "thissecretisnotuploadedovertheinternet"
+}
