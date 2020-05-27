@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const auth = require("../middleware/auth");
 const NewsAPI = require("newsapi");
-const newsapi = new NewsAPI("6dd98f20e4be4c3c82484a72119c77c7");
+const newsapi = new NewsAPI("38b943e5c1ea4d2cb89a3ae390e644c4");
 // 6dd98f20e4be4c3c82484a72119c77c7
 // 8de0a886e62c4bf6be4122b730e97e72
 router.get("/headlines", auth, (req, res) => {
